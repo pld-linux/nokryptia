@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://mobilix.org/software/nokryptia/%{name}-%{version}.tgz
+# Source0-md5:	0fde007eec62b1d8818f164b98bf1cfb
 URL:		http://mobilix.org/nokryptia.html
 BuildRequires:	autoconf
 BuildRequires:	automake

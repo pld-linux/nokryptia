@@ -7,6 +7,8 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	http://mobilix.org/software/nokryptia/%{name}-%{version}.tgz
 URL:		http://mobilix.org/nokryptia.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	id3lib-devel >= 3.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -14,7 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A Nokia 5510 tool.
 
 %description -l pl
-Narzêdzie do zarz±dzania telefonem Nokia 5510 pod³±czonym do poru USB.
+Narzêdzie do zarz±dzania telefonem Nokia 5510 pod³±czonym do portu
+USB.
 
 %prep
 %setup -q
@@ -26,6 +29,7 @@ rm -f missing
 %{__autoheader}
 %{__automake}
 %configure
+
 %{__make}
 
 %install

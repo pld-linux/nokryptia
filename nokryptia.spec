@@ -3,16 +3,11 @@ Summary(pl):	Narzêdzia dla Nokii 5510
 Name:		nokryptia
 Version:	1.2
 Release:	0.1
-License:	- (enter GPL/LGPL/BSD/BSD-like/other license name here)
-Group:		-
+License:	GPL
+Group:		Applications/Communications
 Source0:	http://mobilix.org/software/nokryptia/%{name}-%{version}.tgz
 URL:		http://mobilix.org/nokryptia.html
-#BuildRequires:	-
-#PreReq:		-
-#Requires:	-
-#Requires(pre,post):	-
-#Requires(preun):	-
-#Requires(postun):	-
+BuildRequires:	id3lib-devel >= 3.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -44,6 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc ChangeLog README AUTHORS NEWS TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/%{name}
+%{_mandir}/man1/*

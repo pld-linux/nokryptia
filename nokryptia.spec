@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	http://tuxmobil.org/software/nokryptia/%{name}-%{version}.tar.bz2
 # Source0-md5:	10c9509d7a78df9677aa4e92f753668a
-URL:		http://mobilix.org/nokryptia.html
+URL:		http://www.tuxmobil.org/nokryptia.html
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	id3lib-devel >= 3.8

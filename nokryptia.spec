@@ -1,12 +1,12 @@
 Summary:	Nokia 5510 tool
 Summary(pl):	Narzêdzia dla Nokii 5510
 Name:		nokryptia
-Version:	1.2
+Version:	1.3
 Release:	0.1
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://mobilix.org/software/nokryptia/%{name}-%{version}.tgz
-# Source0-md5:	0fde007eec62b1d8818f164b98bf1cfb
+Source0:	http://tuxmobil.org/software/nokryptia/%{name}-%{version}.tar.bz2
+# Source0-md5:	10c9509d7a78df9677aa4e92f753668a
 URL:		http://mobilix.org/nokryptia.html
 BuildRequires:	autoconf
 BuildRequires:	automake

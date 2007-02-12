@@ -1,5 +1,5 @@
 Summary:	Nokia 5510 tool
-Summary(pl):	Narzêdzia dla Nokii 5510
+Summary(pl.UTF-8):   NarzÄ™dzia dla Nokii 5510
 Name:		nokryptia
 Version:	1.3
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Nokia 5510 tool.
 
-%description -l pl
-Narzêdzie do zarz±dzania telefonem Nokia 5510 pod³±czonym do portu
+%description -l pl.UTF-8
+NarzÄ™dzie do zarzÄ…dzania telefonem Nokia 5510 podÅ‚Ä…czonym do portu
 USB.
 
 %prep

@@ -1,5 +1,5 @@
 Summary:	Nokia 5510 tool
-Summary(pl.UTF-8):   Narzędzia dla Nokii 5510
+Summary(pl.UTF-8):	Narzędzia dla Nokii 5510
 Name:		nokryptia
 Version:	1.3
 Release:	1
